@@ -28,27 +28,35 @@
 </head>
 
 <body>
+    <!-- main container -->
     <div class="container w-50 mt-5">
+        <!-- title -->
         <h1 class="fw-bold m-auto w-50">Log in</h1>
         <p class="fw-light m-auto w-50"> Welcome back| please rnter your details. </p>
+         <!-- form validation -->
         <form class="was-validated w-50 m-auto">
+            <!-- input & lable for email -->
             <div class="mt-0">
                 <label for="email" class="fw-bold mt-4"> Email </label>
                 <input type="email" class="form-control w-100 mt-2" id="email" placeholder="Enter your email" required>
                 <div class="invalid-feedback">please enter your email</div>
             </div>
+            <!-- input & lable for password -->
             <div class="mt-0">
                 <label for="pass" class="fw-bold mt-4"> Password </label>
                 <input type="password" class="form-control w-100 mt-2" id="pass" placeholder="Enter correct pasword" required>
                 <div class="invalid-feedback">please enter your password</div>
             </div>
+            <!-- remmeber checkbox & lable -->
             <div class="mt-3">
                 <input type="checkbox" class="me-1" id="checkbox">
                 <label for="checkbox" class="form-check-label"> Remember for 30 days. </label>
                 <a href="#" class="fs-6 fw-bold forget text-decoration-none"> Forget password </a>
             </div>
+            <!-- sign in buttons -->
             <button type="button" class="btn btn-block sign-btn text-white w-100 mt-4">Sign in</button>
             <button type="button" class="btn btn-block bg-light border-5 border-secondary text-black w-100 mt-4"><i class="fab fa-google me-2"></i>Sign in with google</button>
+            <!-- sign up link -->
             <div class="mt-5 w-50">
                 <p class="fw-light text-center"> Don't have an account? 
                     <a class="fw-bold sign-up_link text-decoration-none ms-3"> Sign up </a>
