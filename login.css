@@ -1,7 +1,9 @@
 :root {
     --mainColor: #36008e;
 }
-
+.form_validation{
+    width: 50%;
+}
 .forget{
     position: absolute;
     left: 36.5rem;
@@ -68,9 +70,131 @@
     margin-top: 14rem;
 }
 
-
-@media screen and (max-width: 1024px) {
+@media screen and (width: 1440px) {
+   
+    .login {
+        margin-top: 11rem;
+    }
+    /* forget password link */
+    .forget {
+        left: 25.5rem;
+    }
+    .main-carousel {
+        height: 66vh;
+        margin-top: 11rem;
+    }
+    /* big chart img on the slider */
+    .slider-img {
+        width: 35vw;
+    }
+    /* small chart img on the slider */
+    .slider-img2 {
+        width: 15vw;
+        height: 25vh;
+        right: 3rem;
+        top: 6rem;
+    }
+    .sign-up_div{
+        width: 75%!important;
+    }
+}
+@media screen and (max-width:768px) and (min-width:500px) {
     div:nth-child(n) {
         width: 100% !important;
     }
+    .container-fluid{
+        padding: 0;
+    }
+    .main-row{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+    .col-slider {
+        height: 70vh;
+    }
+    .main-carousel {
+        margin-top: 4rem;
+    }
+    .forget {
+        position: absolute;
+        left: 27.5rem;
+    }
+    /* big chart img on the slider */
+    .slider-img {
+        width: 60vw;
+    }
+    /* small chart img the slider */
+    .slider-img2 {
+        width: 25vw;
+        height: 21vh;
+        right: 5rem;
+    }
+    .slider-title {
+        margin-top: 6rem;
+    }
+    /* prev & next icon */
+    .carousel-control_icon {
+        width: 2vw;
+    }
+    .carousel-control {
+        width: 52vw;
+        top: 28rem;
+    }
+    .login {
+        margin-top: 5rem;
+    }
+}
+@media screen and (max-width:450px){
+    .container-fluid{
+        padding: 0;
+    }
+    .form_validation, .sign-up_div{
+        width: 75%;
+    }
+    .main-row{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+    .login {
+        margin-top: 5rem;
+    }
+    .forget{
+        position: unset;
+        font-size: 12px !important;
+        margin-left: 1rem;
+    }
+    .col-slider {
+        height: 60vh;
+    }
+    .main-carousel {
+        margin-top: 2rem;
+        height: 53vh;
+    }
+    /* big chart img on the carousel */
+    .slider-img {
+        width: 80vw;
+        height: 25vh;
+    }
+    /* small chart img on the carousel */
+    .slider-img2 {
+        width: 30vw;
+        height: 17vh;
+        right: 0rem;
+        top: 7rem;
+    }
+    /* slider title */
+    .slider-title {
+        margin-top: 6rem;
+    }
+    .carousel-control {
+        top: 25rem;
+        width: 20vw;
+    }
+    /* prev & next icon on the slider */
+    .carousel-control_icon {
+        width: 4vw;
+    }
+
 }
