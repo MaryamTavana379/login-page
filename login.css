@@ -1,0 +1,76 @@
+:root {
+    --mainColor: #36008e;
+}
+
+.forget{
+    position: absolute;
+    left: 36.5rem;
+    color: var(--mainColor);
+}
+.sign-up_link {
+    color: var(--mainColor);
+}
+
+.sign-btn {
+    background-color: var(--mainColor);
+}
+.sign-btn:hover, .sign-btn:active, .sign-btn:focus{
+    background-color: var(--mainColor);
+}
+/* column for slider section*/
+.col-slider{
+    background-color: var(--mainColor);
+    height: 100vh;
+}
+.main-carousel{
+    height: 60vh;
+    margin-top: 14rem;
+}
+/* indicators on the slider */
+.carousel-indicators li {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 100%;
+}
+/* images on the sliders */
+.slider-img{
+    width: 30vw;
+    height: 30vh;
+    border-radius: 20px;
+    margin: auto;
+}
+.slider-img2{
+    width: 12vw;
+    height: 22vh;
+    position: absolute;
+    right: 8rem;
+    top: 8rem;
+    border-radius: 20px;
+}
+/* titles under the image slider */
+.slider-title{
+    margin-top: 10rem;
+}
+/* subtitle carousel */
+.slider-subtitle{
+    color: #d3d0d0;
+}
+/* carousel control prev & next */
+.carousel-control{
+    width: 32vw;
+    top: 32rem;
+}
+/*  prev & next carousel control icon */
+.carousel-control_icon{
+    width: 1vw;
+}
+.login{
+    margin-top: 14rem;
+}
+
+
+@media screen and (max-width: 1024px) {
+    div:nth-child(n) {
+        width: 100% !important;
+    }
+}
